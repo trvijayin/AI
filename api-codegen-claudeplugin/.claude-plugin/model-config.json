@@ -1,0 +1,92 @@
+{
+    "modelConfiguration": {
+        "description": "Recommended models for different plugin commands and skills",
+        "commands": {
+            "generate-api": {
+                "recommended": "claude-3-5-sonnet-20241022",
+                "alternatives": [
+                    "claude-3-opus-20240229",
+                    "claude-3-haiku-20240307"
+                ],
+                "reasoning": "Sonnet provides best balance of speed and code quality for API generation"
+            },
+            "generate-tests": {
+                "recommended": "claude-3-opus-20240229",
+                "alternatives": [
+                    "claude-3-5-sonnet-20241022"
+                ],
+                "reasoning": "Opus excels at comprehensive test coverage and edge case identification"
+            },
+            "create-openapi": {
+                "recommended": "claude-3-5-sonnet-20241022",
+                "alternatives": [
+                    "claude-3-opus-20240229"
+                ],
+                "reasoning": "Sonnet handles structured specification generation efficiently"
+            },
+            "scaffold-service": {
+                "recommended": "claude-3-opus-20240229",
+                "alternatives": [
+                    "claude-3-5-sonnet-20241022"
+                ],
+                "reasoning": "Opus provides best architecture decisions for complete microservices"
+            }
+        },
+        "skills": {
+            "api-design": {
+                "recommended": "claude-3-5-sonnet-20241022",
+                "alternatives": [
+                    "claude-3-opus-20240229"
+                ],
+                "reasoning": "Sonnet has strong understanding of REST principles and best practices"
+            },
+            "test-generation": {
+                "recommended": "claude-3-opus-20240229",
+                "alternatives": [
+                    "claude-3-5-sonnet-20241022"
+                ],
+                "reasoning": "Opus provides most thorough test coverage and edge case analysis"
+            }
+        },
+        "taskTypes": {
+            "simple": {
+                "model": "claude-3-haiku-20240307",
+                "examples": [
+                    "Simple CRUD endpoints",
+                    "Basic validation",
+                    "Simple documentation"
+                ]
+            },
+            "standard": {
+                "model": "claude-3-5-sonnet-20241022",
+                "examples": [
+                    "Complete API generation",
+                    "Standard microservices",
+                    "OpenAPI specifications"
+                ]
+            },
+            "complex": {
+                "model": "claude-3-opus-20240229",
+                "examples": [
+                    "Complex microservices architecture",
+                    "Comprehensive test suites",
+                    "Advanced security implementations"
+                ]
+            }
+        },
+        "costOptimization": {
+            "development": {
+                "model": "claude-3-haiku-20240307",
+                "note": "Use Haiku for rapid prototyping and iteration"
+            },
+            "production": {
+                "model": "claude-3-opus-20240229",
+                "note": "Use Opus for production-ready code generation"
+            },
+            "balanced": {
+                "model": "claude-3-5-sonnet-20241022",
+                "note": "Use Sonnet for best balance of quality and cost"
+            }
+        }
+    }
+}
