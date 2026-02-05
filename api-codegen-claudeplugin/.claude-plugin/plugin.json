@@ -1,0 +1,8 @@
+{
+  "name": "codegen",
+  "version": "1.0.0",
+  "description": "Generate API code and unit tests faster. Create REST APIs, GraphQL endpoints, and comprehensive test suites with best practices built-in.",
+  "author": {
+    "name": "Vijay Bharathy"
+  }
+}
