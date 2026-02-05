@@ -1,0 +1,27 @@
+{
+    "name": "openapi-generator-mcp",
+    "version": "1.0.0",
+    "description": "MCP server for OpenAPI code generation",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "mcp",
+        "openapi",
+        "code-generation"
+    ],
+    "author": "Vijay Bharathy",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^0.5.0",
+        "openapi-typescript-codegen": "^0.25.0",
+        "swagger-parser": "^10.0.3",
+        "js-yaml": "^4.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
