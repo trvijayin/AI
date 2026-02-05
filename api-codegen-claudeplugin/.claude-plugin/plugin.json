@@ -1,8 +1,14 @@
 {
-  "name": "codegen",
-  "version": "1.0.0",
-  "description": "Generate API code and unit tests faster. Create REST APIs, GraphQL endpoints, and comprehensive test suites with best practices built-in.",
-  "author": {
-    "name": "Vijay Bharathy"
-  }
+    "name": "codegen",
+    "version": "1.0.0",
+    "description": "Generate API code and unit tests faster. Create REST APIs, GraphQL endpoints, and comprehensive test suites with best practices built-in.",
+    "author": {
+        "name": "Vijay Bharathy"
+    },
+    "modelRecommendations": {
+        "generate-api": "claude-3-5-sonnet-20241022",
+        "generate-tests": "claude-3-5-sonnet-20241022",
+        "create-openapi": "claude-3-5-sonnet-20241022",
+        "scaffold-service": "claude-3-5-sonnet-20241022"
+    }
 }
