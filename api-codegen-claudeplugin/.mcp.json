@@ -1,0 +1,18 @@
+{
+    "mcpServers": {
+        "openapi-generator": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "mcp-servers/openapi-generator/index.js"
+            ]
+        },
+        "test-framework": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "mcp-servers/test-framework/index.js"
+            ]
+        }
+    }
+}
