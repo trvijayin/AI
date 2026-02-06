@@ -1,0 +1,13 @@
+{
+    "name": "asp-to-react-modernization",
+    "version": "1.0.0",
+    "description": "Modernize Classic ASP applications to React. Reverse engineer ASP code, generate migration plans, and perform automated migrations with confidence scoring.",
+    "author": {
+        "name": "Vijay Bharathy"
+    },
+    "modelRecommendations": {
+        "reverse-engineer": "claude-3-opus-20240229",
+        "generate-plan": "claude-3-opus-20240229",
+        "migrate-asp-to-react": "claude-3-5-sonnet-20241022"
+    }
+}
