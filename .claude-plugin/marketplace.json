@@ -8,6 +8,11 @@
       "name": "apicodegen",
       "source": "./api-codegen-claudeplugin",
       "description": "Generate API code and unit tests faster. Create REST APIs, GraphQL endpoints, and comprehensive test suites with best practices built-in."
+    },
+    {
+    "name": "asp-to-react-modernization",
+    "source": "./asp-to-react-plugin",
+    "description": "Modernize Classic ASP applications to React. Reverse engineer ASP code, generate migration plans, and perform automated migrations with confidence scoring."
     }
   ]
 }
